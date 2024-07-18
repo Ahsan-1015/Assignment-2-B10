@@ -1,0 +1,165 @@
+@media screen and (max-width:576px) {
+
+
+    header {
+        width: 99.5vw;
+        height: 100vh;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        width: 100vw;
+        height: 85vh;
+        gap: 0px;
+       
+    }
+
+    .navber-text {
+        width: 85vw;
+    }
+
+
+    .navber-links {
+        display: none;
+    }
+
+    .humbarg-bar {
+        display: block;
+        margin-right: 10px;
+        padding: 10px;
+
+    }
+
+    .banner-container-text-title {
+        font-size: 2.8rem;
+        font-weight: 900;
+        margin: 0%;
+
+
+    }
+
+    .banner-container-text {
+        width: 90vw;
+    }
+
+    .banner-container {
+        width: 90vw;
+
+    }
+
+    .btn-primary {
+        padding: 10px 20px;
+    }
+
+    .btn-secondary {
+        padding: 10px 20px;
+    }
+
+    .btn-container {
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .banner-container-image {
+        width: 95vw;
+
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+
+
+    }
+
+    .banner-container-image>img {
+        width: 70%;
+        margin: 0;
+        height: 100%;
+
+
+    }
+
+    .vidio-tutorial,
+    .free-workout {
+        width: 170px;
+        height: 70px;
+
+
+        background-color: rgba(55, 52, 52, 0.885);
+        position: absolute;
+        border-radius: 12px;
+        padding: 5px 0px;
+
+    }
+
+    .vidio-tutorial {
+        bottom: 220px;
+        right: 230px;
+    }
+
+
+    .vidio-tutorial-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .free-workout {
+        right: 30px;
+        top: 490px;
+        background: rgba(255, 255, 255, 0.1);
+
+
+    }
+
+    .free-workout-title {
+
+        font-size: 1.9rem;
+        font-weight: 800;
+ 
+       
+    }
+
+
+    .free-workout-subtitle {
+        font-size: 0.8rem;
+        line-height: 0px;
+        letter-spacing: 0px;
+        
+    }
+
+    /* change habit section style  */
+    main{
+        height: 200vh;
+    }
+    .habit-contianer-text{
+        width: 75vw;
+        text-align: center;
+      
+    }
+
+    .habit-contianer-text-title{
+        font-size: 1.7rem;
+        font-weight: 900;
+        
+    }
+
+    .habit-contianer-card{
+        grid-template-columns: 1fr;
+        justify-items: center;
+       
+    }
+
+    .card{
+        width:65vw ;
+    
+        /* border: indianred 2px solid; */
+    
+    }
+    
+
+
+
+
+
+
+
+}

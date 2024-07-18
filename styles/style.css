@@ -11,10 +11,18 @@
     color: white;
 
 }
+
+.hide {
+    display: none;
+}
+
 /* screen width 1920 px used zomm 100% */
 body {
+    max-width: 1920px;
     margin: 0;
     padding: 0;
+
+    border: aquamarine 2px solid;
 }
 
 /* shared styles  */
@@ -50,19 +58,20 @@ body {
 header {
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(11, 7, 7, 0) 150%), linear-gradient(360.00deg, rgb(17, 17, 17), rgba(15, 14, 14, 0.346) 100%);
     width: 99.5vw;
-    height: 99.5vh;
-    margin: 0 auto;
 
-    border: rgb(0, 0, 0) 2px solid;
+
+    margin: 0% auto;
+
+    border: rgb(72, 3, 234) 2px solid;
 }
 
-.header-container {
+/* .header-container {
     width: 85vw;
-    height: 95vh;
-    margin: 2% auto;
+    height: 100vh;
+    margin: 0% auto;
    
-    border: rgba(0, 0, 0, 0) 2px solid;
-}
+    border: rgb(255, 23, 104) 2px solid;
+} */
 
 .humbarg-bar {
     display: none;
@@ -73,9 +82,10 @@ header {
 .navber-text {
     justify-content: space-between;
 
-    width: 85vw;
+    width: 75vw;
 
-    margin: 2% auto;
+    margin: 0% auto;
+    padding-top: 50px;
     align-items: center;
 
 
@@ -131,18 +141,19 @@ header {
 /* banner section styles============= */
 
 .banner-container {
-    width: 85vw;
-    height: 75vh;
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
 
     margin-top: 5%;
     align-items: center;
-    justify-content: space-between;
+    gap: 200px;
 
     /* border: indianred 2px solid; */
 }
 
 .banner-container-text {
-    width: 30vw;
+    width: 40vw;
     height: 50vh;
 
 
@@ -188,15 +199,16 @@ header {
 
 
 }
-.btn-container{
+
+.btn-container {
     margin-top: 30px;
 }
 
-/* banner image section styels */
+/* banner image section styels========== */
 
 .banner-container-image {
-    width: 20vw;
-    height: 75vh;
+    width: 25vw;
+    height: 80vh;
 
 
 
@@ -205,7 +217,8 @@ header {
 
 .banner-container-image>img {
     width: 100%;
-    height: 100%;
+    height: 97%;
+    margin-top: 20px;
 
 
     /* border: firebrick 2px solid; */
@@ -221,15 +234,18 @@ header {
     position: absolute;
     border-radius: 12px;
     padding: 5px 0px;
-    
-  
+
+    /* display: none; */
+
+
 
     /* border: darkgoldenrod 2px solid; */
 
 }
-.vidio-tutorial{
-    bottom: 115px;
-    right: 430px;
+
+.vidio-tutorial {
+    bottom: 70px;
+    right: 600px;
 }
 
 .ball {
@@ -265,23 +281,23 @@ header {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.5px;
-    text-align: center;
-  
+    text-align: left;
+
 
 }
 
 .free-workout {
-    right: 60px;
-    top: 370px;
+    right: 160px;
+    top: 450px;
     background: rgba(255, 255, 255, 0.1);
-  
+
 
 }
 
 .free-workout-title {
 
 
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 2rem;
     letter-spacing: 1px;
@@ -291,12 +307,96 @@ header {
 
 .free-workout-subtitle {
     color: rgba(255, 255, 255, 0.65);
-    
+
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 1px;
     text-align: left;
     margin: 0px 20px;
+
+}
+
+/* main section styles start  */
+
+main {
+    background-color:black ;
+    width: 99.5vw;
+    height:max-content;
+    margin: 0 auto;
+    border: orangered 2px solid;
+}
+
+/* habit container section styles */
+
+
+.habit{
+    width: 75vw;
+    height: 75vh;
+    margin: 2% auto;
+
+    /* border: white 2px solid; */
+}
+
+.habit-contianer-text{
+    width: 30vw;
+    height: 20vh;
+    margin: 0 auto;
+  
+    text-align: center;
+
+
+      /* border: darkblue 2px solid; */
+}
+
+.habit-contianer-text-title{
+    font-size: 2.6rem;
+    font-weight: 900;
     
 }
+
+.habit-contianer-text-subtitle, .card-subtitle{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    
+}
+
+/* habit card section styles=== */
+
+.habit-contianer-card{
+    grid-template-columns: repeat(4,1fr);
+    width: 75vw;
+    margin-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+
+
+    /* border: rgb(14, 198, 42) 2px solid; */
+}
+
+.card{
+    width:13vw ;
+ 
+    /* border: indianred 2px solid; */
+
+}
+
+.card-image{
+    width: 80%;
+    border-radius: 50%;
+
+    /* border: yellow 2px solid; */
+
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+    margin-bottom: 5px;
+}
+
