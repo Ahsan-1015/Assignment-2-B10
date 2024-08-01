@@ -6,14 +6,7 @@
         height: 100vh;
     }
 
-    .banner-container {
-        flex-direction: column;
-        width: 100vw;
-        height: 85vh;
-        gap: 0px;
-       
-    }
-
+   
     .navber-text {
         width: 85vw;
     }
@@ -30,6 +23,16 @@
 
     }
 
+    .banner-container {
+        flex-direction: column;
+        width: 90vw;
+        height: 85vh;
+        gap: 0px;
+       
+    }
+
+
+
     .banner-container-text-title {
         font-size: 2.8rem;
         font-weight: 900;
@@ -42,10 +45,7 @@
         width: 90vw;
     }
 
-    .banner-container {
-        width: 90vw;
-
-    }
+   
 
     .btn-primary {
         padding: 10px 20px;
@@ -61,11 +61,13 @@
     }
 
     .banner-container-image {
-        width: 95vw;
+        width: 90vw;
 
         margin-top: 10px;
         display: flex;
+        flex-direction: column;
         justify-content: center;
+       
 
 
 
@@ -73,7 +75,7 @@
 
     .banner-container-image>img {
         width: 70%;
-        margin: 0;
+        margin: 0 auto;
         height: 100%;
 
 
@@ -86,15 +88,15 @@
 
 
         background-color: rgba(55, 52, 52, 0.885);
-        position: absolute;
+        position: relative;
         border-radius: 12px;
         padding: 5px 0px;
 
     }
 
     .vidio-tutorial {
-        bottom: 220px;
-        right: 230px;
+       left: 0px;
+       bottom: 120px;
     }
 
 
@@ -103,15 +105,16 @@
     }
 
     .free-workout {
-        right: 30px;
-        top: 490px;
-        background: rgba(255, 255, 255, 0.1);
+       left: 170px;
+       bottom: 360px;
+       padding-bottom: 20px;
+       
 
 
     }
 
     .free-workout-title {
-
+       
         font-size: 1.9rem;
         font-weight: 800;
  
@@ -126,17 +129,20 @@
         
     }
 
-    /* change habit section style  */
+    /* change habit section style==================  */
     main{
-        height: 200vh;
+       
+        height: 605vh;
     }
     .habit-contianer-text{
         width: 75vw;
         text-align: center;
       
     }
-
-    .habit-contianer-text-title{
+/* three  title class  */
+    .habit-contianer-text-title,
+    .bmi-calculator-container-title,
+    .team-container-text-title{
         font-size: 1.7rem;
         font-weight: 900;
         
@@ -144,7 +150,6 @@
 
     .habit-contianer-card{
         grid-template-columns: 1fr;
-        justify-items: center;
        
     }
 
@@ -154,11 +159,168 @@
         /* border: indianred 2px solid; */
     
     }
+
+    /* run section styles ===== */
+    .run{
+        position: relative;
+        top: 130vh;
+        height: 57vh;
+    }
+    
+    .run-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .run-container-text{
+        width: 65vw;
+
+    }
+
+    .run-container-text-title{
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 0;
+    }
+    
+    .run-container-text-subtitle{
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    
+    .run-container-image{
+        width: 65vw;
+        margin-top: 25px;
+    }
+
+    .run-container-image>img{
+        width: 100%;
+    }
+    
+
+    #mobile-btn{
+        padding: 10px 100px;
+    }
+
+
+    /* bmi calculator section styles  */
+
+    .bmi-calculator{
+        position: relative;
+        top: 130vh;
+    }
+
+    .bmi-calculator-container{
+        width: 80vw;
+        height: max-content;
+        margin: 0 auto;
+        text-align: left;
+
+    }
+
+
+    .bmi-chart{
+        height: 88vh;
+        margin-top: 10px;
+    }
+    
+    .bmi-chart-container {
+         flex-direction: column;
+    }
+
+    .bmi-table{
+        width: 75vw;
+    }
+
+    .bmi-table-title{
+        font-size: 1.3rem;
+       
+    }
+
+    table{
+        width: 75vw;
+       
+    }
+
+    .bmi-input{
+        width: 75vw;
+       
+    }
+
+    .height-container{
+
+        width:calc(37.5vw - 10px) ;  
+    }
+
+    .factor-container{
+  
+        width:75vw ;
+    }
+
+  
+
+    thead>tr>td{
+        font-size: 1rem;
+        font-weight: 700;
+       
+    }
+    
+    /* Team section styles =========== */
+
+    .team{
+        position: relative;
+        top: 135vh;
+    }
+
+    .team-container-text{
+        width: 75vw; 
+    
+    }
+
+ 
+    .team-info{
+       
+        height: 195vh;
+    }
+    
     
 
 
+    .team-info-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+    }
 
 
+
+    .info-card{
+        width:65vw ;    
+        height: 30vh;
+    }
+
+    .info-card>img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        
+    }
+
+
+    footer{
+        height: 100vh;
+    }
+    
+    .footer-container{
+        flex-direction: column;
+    
+    }
+
+    .footer-container-text{
+        width: 75vw;  
+        
+    }
+    
+    
 
 
 
