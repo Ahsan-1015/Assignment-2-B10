@@ -150,7 +150,8 @@
 /* three  title class  */
     .habit-contianer-text-title,
     .bmi-calculator-container-title,
-    .team-container-text-title{
+    .team-container-text-title,
+    .upcoming-plan-container-text-title{
         font-size: 1.7rem;
         font-weight: 900;
         
@@ -210,6 +211,52 @@
         width: 65vw;
         padding: 15px 70px;
     }
+
+
+    /* unieque section styles  */
+
+    .upcoming-plan{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .upcoming-plan-container{
+        height: auto;
+    }
+
+    .upcoming-plan-container-text-title {
+        width: 75vw;
+        margin: 5% auto;
+        margin-top: 5px;
+    }
+
+    .upcoming-plan-container-text-subtitle {
+        text-align: center;
+        color: rgba(236, 5, 5, 0.938);
+        font-family: Inter;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.5px;
+        margin-bottom: 0px;
+    
+    }
+
+    .upcoming-plan-container-images{
+        grid-template-columns: 1fr;
+       
+    }
+
+    .images-card{
+        width: 75vw;
+    }
+
+   
+    
+
+
+
+
 
 
     /* bmi calculator section styles  */
