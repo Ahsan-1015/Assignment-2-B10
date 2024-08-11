@@ -3,7 +3,8 @@
 
     header {
         width: 99.5vw;
-        height: 100vh;
+        height: auto;
+      
     }
 
    
@@ -34,7 +35,7 @@
 
 
     .banner-container-text-title {
-        font-size: 2.8rem;
+        font-size: 2.7rem;
         font-weight: 900;
         margin: 0%;
 
@@ -83,30 +84,32 @@
 
     .vidio-tutorial,
     .free-workout {
-        width: 170px;
+        width: 165px;
         height: 70px;
 
 
         background-color: rgba(55, 52, 52, 0.885);
-        position: relative;
+        position: absolute;
         border-radius: 12px;
         padding: 5px 0px;
 
     }
 
+    
+
     .vidio-tutorial {
-       left: 0px;
+       left: 20px;
        bottom: 120px;
     }
 
 
     .vidio-tutorial-subtitle {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .free-workout {
-       left: 170px;
-       bottom: 360px;
+       left: 220px;
+       bottom: 270px;
        padding-bottom: 20px;
        
 
@@ -115,7 +118,7 @@
 
     .free-workout-title {
        
-        font-size: 1.9rem;
+        font-size: 1.5rem;
         font-weight: 800;
  
        
@@ -123,7 +126,7 @@
 
 
     .free-workout-subtitle {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         line-height: 0px;
         letter-spacing: 0px;
         
@@ -131,8 +134,13 @@
 
     /* change habit section style==================  */
     main{
-       
-        height: 605vh;
+       position: relative;
+        height: none; 
+        
+    }
+
+    .habit{
+        height: auto;
     }
     .habit-contianer-text{
         width: 75vw;
@@ -156,19 +164,18 @@
     .card{
         width:65vw ;
     
-        /* border: indianred 2px solid; */
+       
     
     }
 
     /* run section styles ===== */
     .run{
-        position: relative;
-        top: 130vh;
-        height: 57vh;
+        height: max-content;
     }
     
     .run-container{
         flex-direction: column;
+        gap: 10px;
         padding: 20px;
     }
 
@@ -190,6 +197,7 @@
     
     .run-container-image{
         width: 65vw;
+        height: auto;
         margin-top: 25px;
     }
 
@@ -199,17 +207,14 @@
     
 
     #mobile-btn{
-        padding: 10px 100px;
+        width: 65vw;
+        padding: 15px 70px;
     }
 
 
     /* bmi calculator section styles  */
 
-    .bmi-calculator{
-        position: relative;
-        top: 130vh;
-    }
-
+    
     .bmi-calculator-container{
         width: 80vw;
         height: max-content;
@@ -220,11 +225,12 @@
 
 
     .bmi-chart{
-        height: 88vh;
+        height: 90vh;
         margin-top: 10px;
     }
     
     .bmi-chart-container {
+       
          flex-direction: column;
     }
 
@@ -244,6 +250,7 @@
 
     .bmi-input{
         width: 75vw;
+        margin-top: 30px;
        
     }
 
@@ -268,8 +275,8 @@
     /* Team section styles =========== */
 
     .team{
-        position: relative;
-        top: 135vh;
+        
+        height: none;
     }
 
     .team-container-text{
@@ -280,7 +287,7 @@
  
     .team-info{
        
-        height: 195vh;
+        height: auto;
     }
     
     
@@ -295,7 +302,7 @@
 
     .info-card{
         width:65vw ;    
-        height: 30vh;
+        height: 28vh;
     }
 
     .info-card>img{

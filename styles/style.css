@@ -41,17 +41,16 @@ body {
     padding: 15px 40px;
     border: none;
     color: white;
-
-    color: rgb(255, 255, 255);
     font-size: 1.1rem;
     font-weight: 600;
+    cursor: pointer;
 
 
 }
 
 
 
-/* header section styles ====== */
+/* header section styles ============== */
 
 /* navber ========= */
 
@@ -189,6 +188,7 @@ header {
     color: white;
     font-size: 1.1rem;
     margin-left: 20px;
+    cursor: pointer;
 
 
 }
@@ -544,6 +544,8 @@ tbody>tr>td{
 table{
     width: 30vw;
     padding: 20px 0px;
+    margin-top: 15px;
+    border-collapse: collapse;
 }
 
 .bmi-input{
