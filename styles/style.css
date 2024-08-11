@@ -221,7 +221,7 @@ header {
 .free-workout {
     width: 206px;
     height: 90px;
-    
+
     background-color: rgba(55, 52, 52, 0.885);
     position: relative;
     border-radius: 12px;
@@ -236,9 +236,9 @@ header {
 }
 
 .vidio-tutorial {
-   bottom: 200px;
-   right: 50px;
-    
+    bottom: 200px;
+    right: 50px;
+
 }
 
 .ball {
@@ -314,9 +314,9 @@ header {
 /* main section styles start  */
 
 main {
-    background-color:black ;
+    background-color: black;
     width: 99.5vw;
-    height:99.5;
+    height: 99.5;
     margin: 0 auto;
     padding: 30px 0px;
 
@@ -326,7 +326,7 @@ main {
 /* habit container section styles */
 
 
-.habit{
+.habit {
     width: 75vw;
     height: 75vh;
     margin: 2% auto;
@@ -334,46 +334,49 @@ main {
     /* border: white 2px solid; */
 }
 
-.habit-contianer-text{
+.habit-contianer-text {
     width: 30vw;
     height: 20vh;
     margin: 0 auto;
-  
+
     text-align: center;
 
 
-      /* border: darkblue 2px solid; */
-}
-/* two section title class */
-.habit-contianer-text-title,
-.bmi-calculator-container-title,
-.team-container-text-title{
-    font-size: 2.6rem;
-    font-weight: 900;
-    
+    /* border: darkblue 2px solid; */
 }
 
-/* six section subtitle class */
-.habit-contianer-text-subtitle, 
+/* four section title class */
+.habit-contianer-text-title,
+.bmi-calculator-container-title,
+.team-container-text-title,
+.upcoming-plan-container-text-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+
+}
+
+/* eight section subtitle class */
+.habit-contianer-text-subtitle,
 .card-subtitle,
+.images-card-subtitle,
 .run-container-text-subtitle,
 .bmi-calculator-container-subtitle,
 .bmi-table-subtitle,
 .team-container-text-subtitle,
-.footer-container-text-subtitle{
+.footer-container-text-subtitle {
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0.5px;
-    
+
 }
 
 /* habit card section styles=== */
 
-.habit-contianer-card{
-    grid-template-columns: repeat(4,1fr);
+.habit-contianer-card {
+    grid-template-columns: repeat(4, 1fr);
     width: 75vw;
     margin-top: 50px;
     gap: 50px;
@@ -385,14 +388,14 @@ main {
     /* border: rgb(14, 198, 42) 2px solid; */
 }
 
-.card{
-    width:14vw ;
- 
+.card {
+    width: 14vw;
+
     /* border: indianred 2px solid; */
 
 }
 
-.card-image{
+.card-image {
     width: 80%;
     border-radius: 50%;
 
@@ -400,7 +403,8 @@ main {
 
 }
 
-.card-title{
+.card-title,
+.images-card-title {
     font-size: 1.5rem;
     font-weight: 500;
 
@@ -410,61 +414,118 @@ main {
 
 /* run section styles=============  */
 
-.run{
+.run {
     background-color: rgba(74, 69, 69, 0.664);
     width: 75vw;
     height: 40vh;
     margin: 0 auto;
     border-radius: 25px;
     margin-bottom: 25px;
-   
+
 
     /* border: fuchsia 2px solid; */
 
 }
 
-.run-container{
+.run-container {
     justify-content: space-between;
     padding: 30px;
 }
 
-.run-container-text{
-    width:25vw ;
+.run-container-text {
+    width: 25vw;
     height: max-content;
-   
+
     /* border: yellowgreen 2px solid; */
 }
 
-.run-container-text-title{
+.run-container-text-title {
     font-size: 2.8rem;
     font-weight: 900;
     margin: 0;
 }
 
-.run-container-text-subtitle{
+.run-container-text-subtitle {
     margin-bottom: 20px;
 }
 
 
 
-.run-container-image{
+.run-container-image {
     width: 25vw;
     height: 35vh;
-   
-    
+
+
 
     /* border: darkcyan 2px solid; */
 }
 
-.run-container-image>img{
+.run-container-image>img {
     width: 100%;
     border-radius: 15px;
 }
 
 
+/* unique section styles ============== */
+
+.upcoming-plan{
+    margin-top: 100px;
+}
+.upcoming-plan-container {
+    width: 75vw;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
+
+
+    /* border: red 2px solid; */
+}
+
+.upcoming-plan-container-text-title {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.upcoming-plan-container-images {
+    grid-template-columns: repeat(3, 1fr);
+   justify-items: center;
+   gap: 50px;
+
+  
+}
+
+.images-card {
+    width: 40vh;
+    height: auto;
+    text-align: center;
+    background-color: rgba(74, 69, 69, 0.664) ;
+    border-radius: 20px;
+
+    /* border: green 2px solid; */
+}
+
+.images-card>img {
+    width: 90%;
+    height: fit-content;
+   margin-top: 15px;
+    border-radius: 20px;
+
+    /* border: rebeccapurple 2px solid; */
+}
+
+.enroll-btn{
+    width: 30vh;
+    margin-bottom: 10px;
+}
+
+
+
 /* bmi calculator scetion styles==============  */
 
-.bmi-calculator{
+.bmi-calculator {
     width: 99.5vw;
     height: max-content;
 
@@ -473,7 +534,7 @@ main {
     /* border: aquamarine 2px solid; */
 }
 
-.bmi-calculator-container{
+.bmi-calculator-container {
     width: 30vw;
     height: max-content;
     margin: 0 auto;
@@ -483,16 +544,16 @@ main {
 
 }
 
-.bmi-calculator-container-title{
-  margin: 0;
+.bmi-calculator-container-title {
+    margin: 0;
 }
 
 
 /* bmi calculate table section styels  */
 
-.bmi-chart{
-    background-color:rgba(74, 69, 69, 0.664) ;
-   
+.bmi-chart {
+    background-color: rgba(74, 69, 69, 0.664);
+
     margin: 2% auto;
     height: 45vh;
 
@@ -502,7 +563,7 @@ main {
 
 .bmi-chart-container {
     width: 75vw;
-    height:calc(45vh - 60px);
+    height: calc(45vh - 60px);
     justify-content: space-between;
     margin: 0 auto;
     padding: 30px 0px;
@@ -511,28 +572,32 @@ main {
     /* border:gold 2px solid */
 
 }
-.bmi-table{
+
+.bmi-table {
     width: 30vw;
 
     /* border: mediumpurple 2px solid; */
 }
-.bmi-table-title{
+
+.bmi-table-title {
     font-size: 2.2rem;
     font-weight: 700;
     margin: 0;
 }
-td{
+
+td {
     padding: 15px;
     border: gray 2px solid;
     text-align: center;
 }
-thead>tr>td{
+
+thead>tr>td {
     font-size: 1.2rem;
     font-weight: 700;
-   
+
 }
 
-tbody>tr>td{
+tbody>tr>td {
     font-size: 0.9rem;
     color: rgba(210, 198, 198, 0.918);
     font-weight: 400;
@@ -540,45 +605,45 @@ tbody>tr>td{
 }
 
 
-table{
+table {
     width: 30vw;
     padding: 20px 0px;
     margin-top: 15px;
     border-collapse: collapse;
 }
 
-.bmi-input{
+.bmi-input {
     width: 35vw;
-   
+
 
     /* border: red 2px solid; */
 }
 
-.bmi-input-container{
+.bmi-input-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 
     margin: 20px 0px;
 }
 
-.height-container{
+.height-container {
 
-    width:calc(17.5vw - 10px) ;
+    width: calc(17.5vw - 10px);
     height: 40px;
     background-color: rgba(106, 99, 99, 0.697);
     color: aliceblue;
     border: none;
     border-radius: 8px;
 
-   
-    
+
+
 }
 
 
-.factor-container{
-  
-    width:35vw ;
+.factor-container {
+
+    width: 35vw;
     height: 40px;
     background-color: rgba(106, 99, 99, 0.697);
     color: aliceblue;
@@ -589,7 +654,7 @@ table{
 
 /* teeam member sction styles ======== */
 
-.team{
+.team {
     width: 99.5vw;
     height: max-content;
     margin: 0 auto;
@@ -598,17 +663,17 @@ table{
 
 }
 
-.team-container{
-    width: 75vw ;
+.team-container {
+    width: 75vw;
     height: max-content;
     margin: 2% auto;
 
     /* border:firebrick 3px solid; */
 }
 
-.team-container-text{
+.team-container-text {
     width: 25vw;
-    height: max-content ;
+    height: max-content;
     margin: 0 auto;
     text-align: center;
 
@@ -616,12 +681,12 @@ table{
 
 }
 
-.team-container-text-title{
+.team-container-text-title {
     margin: 0;
 }
 
-.team-info{
-    background-color:rgba(74, 69, 69, 0.664) ;
+.team-info {
+    background-color: rgba(74, 69, 69, 0.664);
     width: 75vw;
     height: 80vh;
     margin-top: 50px;
@@ -631,60 +696,60 @@ table{
 }
 
 
-.team-info-container{
-    grid-template-columns: repeat(3,1fr);
+.team-info-container {
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 15px;
     padding: 10px;
-    align-content:center ;
+    align-content: center;
 }
 
-.info-card{
-    width:22vw ;
+.info-card {
+    width: 22vw;
     height: 38vh;
     border-radius: 15px;
-   
-   
+
+
 
     /* border: forestgreen 2px solid; */
 }
 
-.info-card>img{
+.info-card>img {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    
+
 }
 
-.info-card-text{
+.info-card-text {
     position: relative;
     bottom: 90px;
     left: 15px;
 }
 
-.info-card-text-title{
+.info-card-text-title {
     font-size: 1.3rem;
     font-weight: 700;
     margin: 0;
 }
 
-.info-card-text-subtitle{
+.info-card-text-subtitle {
     font-size: 0.9rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5) ;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-footer{
+footer {
     background-color: rgba(10, 10, 10, 0.794);
     width: 99.5vw;
     height: 40vh;
     margin: 0 auto;
     padding-bottom: 20px;
 
-    
+
 }
 
-.footer-container{
+.footer-container {
     justify-content: space-between;
     width: 75vw;
     height: max-content;
@@ -695,14 +760,14 @@ footer{
 
 }
 
-.footer-container-text{
+.footer-container-text {
     width: 20vw;
     height: max-content;
 
     /* border: green 2px solid; */
 }
 
-.footer-brand{
+.footer-brand {
     color: rgb(230, 83, 60);
     font-size: 2.5rem;
     font-weight: 900;
@@ -711,24 +776,24 @@ footer{
 }
 
 
-.footer-container-text-title{
+.footer-container-text-title {
     font-size: 2rem;
     font-weight: 700;
     color: white;
 }
 
-.footer-hr-container{
+.footer-hr-container {
     width: 75vw;
     margin: 2% auto;
-   
+
 }
 
 
-hr{
-    color: rgba(30, 27, 27, 0.634) ;
+hr {
+    color: rgba(30, 27, 27, 0.634);
 }
 
-#copyright-subtitle-id{
+#copyright-subtitle-id {
     display: flex;
     justify-content: center;
 }
