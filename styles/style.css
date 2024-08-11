@@ -221,8 +221,7 @@ header {
 .free-workout {
     width: 206px;
     height: 90px;
-    /* background: rgba(48, 48, 48, 0.54); */
-
+    
     background-color: rgba(55, 52, 52, 0.885);
     position: relative;
     border-radius: 12px;
@@ -232,7 +231,7 @@ header {
 
 
 
-    /* border: darkgoldenrod 2px solid; */
+    border: rgba(38, 37, 37, 0.667) 1px solid;
 
 }
 
